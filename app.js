@@ -44,7 +44,7 @@ btnRoll.addEventListener("click", function () {
 
     console.log(dice);
     diceEl.classList.remove("hidden");
-    diceEl.src = `./img/dice-${dice}.png`;
+    diceEl.src = `./dice-${dice}.png`;
 
     //check dice oputput
     if (dice !== 1) {
